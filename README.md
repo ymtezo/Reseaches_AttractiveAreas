@@ -1,0 +1,2 @@
+# Reseaches_AttractiveAreas
+自分向け地域の成功指数に関して優位なものを探す。
