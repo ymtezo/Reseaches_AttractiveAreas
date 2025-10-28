@@ -312,14 +312,14 @@ outcome_variables <- list(
       source = "総務省・住民基本台帳（計算必要）",
       unit = "%",
       frequency = "年次",
-      note = "若年層(15-39歳)の転入超過率"
+      note = "若年層 (15-39歳) の転入超過率"
     ),
     "文化施設充実度" = list(
       name = "Cultural facility enrichment",
       source = "文部科学省・社会教育調査（計算必要）",
       unit = "施設数/十万人",
       frequency = "3年毎",
-      note = "図書館、博物館、美術館等の人口当たり数"
+      note = "図書館、 博物館、 美術館等の人口当たり数"
     ),
     "スポーツ施設充実度" = list(
       name = "Sports facility enrichment",
@@ -351,14 +351,14 @@ outcome_variables <- list(
       source = "各種調査を組み合わせて算出",
       unit = "スコア",
       frequency = "年次",
-      note = "労働時間、有給取得率、通勤時間等を総合"
+      note = "労働時間、 有給取得率、 通勤時間等を総合"
     ),
     "クリエイティブ産業従事者比率" = list(
       name = "Creative industry worker ratio",
       source = "国勢調査・経済センサス（計算必要）",
       unit = "%",
       frequency = "5年毎",
-      note = "芸術、デザイン、IT等の従事者割合"
+      note = "芸術、 デザイン、 IT等の従事者割合"
     )
   )
 )
