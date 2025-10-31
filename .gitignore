@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Project specific - generated data and output
+R/data/*.csv
+R/output/*.csv
+R/output/*.png
