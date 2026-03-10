@@ -139,9 +139,44 @@ source("R/scripts/04_visualization.R")
 - `factor_importance_ranking.png`: 因子影響度ランキング
 - `factor_outcome_relationships.png`: 因子とアウトカムの関係
 
+## 実際の統計データの利用 / Using Real Statistical Data
+
+**📊 日本政府統計データの取得方法**
+
+本プロジェクトでは、実際の日本政府統計データを使用することができます。
+
+### データソースガイド
+
+詳細な統計データソースのリストと取得方法については、以下のドキュメントを参照してください：
+
+**[📖 日本の統計データソースガイド (JAPAN_STATISTICAL_DATA_SOURCES.md)](JAPAN_STATISTICAL_DATA_SOURCES.md)**
+
+このガイドには以下の情報が含まれています：
+- 政府統計の総合窓口（e-Stat）の使い方
+- 各省庁の統計データソース（内閣府、総務省、厚生労働省など）
+- 研究機関・シンクタンクのデータ
+- 地方自治体のオープンデータ
+- API経由でのデータ取得方法
+- 本リポジトリの変数とデータソースの対応表
+
+### 実データ取得スクリプト
+
+実際の統計データを取得するためのRスクリプトを提供しています：
+
+```r
+# 実データ取得スクリプトの実行
+source("R/scripts/00_fetch_real_data.R")
+```
+
+**使用前の準備:**
+1. e-Stat APIキーを取得: https://www.e-stat.go.jp/api/
+2. 環境変数に設定: `Sys.setenv(ESTAT_API_KEY = "your_key")`
+
+詳細は [JAPAN_STATISTICAL_DATA_SOURCES.md](JAPAN_STATISTICAL_DATA_SOURCES.md) を参照してください。
+
 ## 今後の拡張 / Future Enhancements
 
-- [ ] 実際の統計データ（e-Stat等）との連携
+- [x] 実際の統計データ（e-Stat等）との連携
 - [ ] 時系列分析の追加
 - [ ] 地理空間分析の統合
 - [ ] インタラクティブなダッシュボードの作成
